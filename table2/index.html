@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<form id="books-form">
+    
+    <input type="button" name="category" value="Novel" id="novel-btn">
+    <input type="button" name="category" value="Anthology" id="anthology-btn">
+    <h1>Title :</h1>
+    <input type="text" name="title" id="title-inp" placeholder="Add Title">
+    <h1>Author :</h1>
+    <input type="text" name="author" id="author-inp" placeholder="Add Author">
+    <h1>Publisher :</h1>
+    <input type="text" name="publisher" id="publisher-inp" placeholder="Add Publisher">
+    <h1>Year :</h1>
+    <input type="text" name="year" id="year-inp" placeholder="Add Year">
+    <h1>Length of Pages :</h1>
+    <input type="text" name="pages" id="pages-inp" placeholder="Add Length of Pages">
+    <h1>Series :</h1>
+    <input type="text" name="series" id="series-inp" placeholder="Add Series">
+    <h1>Series Number :</h1>
+    <input type="text" name="series-num" id="seriesNum-inp" placeholder="Add Series Number"><br>
+    <br>
+    <input type="submit" value="Submit" id="saveBtn">
+    <input type="reset" value="Discard" id="discardBtn">
+    
+</form>
+<br>
+
+<table id="books-table">
+    <tr id="books-th">
+        <th>Title</th>
+        <th>Author</th>
+        <th>Publisher</th>
+        <th>Year</th>
+        <th>Pages</th>
+        <th>Series</th>
+        <th>Series Number</th>
+
+    </tr>
+</table>
+
+<script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous">
+</script>
+<script src="script.js"></script>
+</body>
+</html>
